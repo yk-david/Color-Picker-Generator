@@ -1,0 +1,82 @@
+html {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+/* Layout */
+.container {
+  width: 550px;
+  height: 550px;
+  margin: 0 auto;
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+}
+
+form {
+  height: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.scheme,
+.get-btn {
+  border: 1px solid #d1d5db;
+  background: #fff;
+}
+
+.seed-color,
+.scheme,
+.get-btn {
+  height: 42px;
+}
+
+.seed-color {
+  width: 61px;
+}
+
+.scheme {
+  width: 312px;
+  border-radius: 6px;
+  padding: 1em;
+}
+
+.get-btn {
+  width: 123px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.get-btn:hover,
+.get-btn:focus {
+  scale: 1.05;
+}
+
+.get-btn:active {
+  scale: 1;
+}
+
+.scheme-palette {
+  display: flex;
+  align-items: stretch;
+  height: 414px;
+}
+
+.color {
+  width: 20%;
+}
+
+.color-names {
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-name {
+  width: 20%;
+  text-align: center;
+}
